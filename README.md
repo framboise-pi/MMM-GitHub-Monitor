@@ -1,4 +1,11 @@
 # MagicMirror² Module - GitHub Monitor
+
+
+# Fork differences
+- star in yellow color
+- fork icon in blue color
+- thin fonts
+
 ## What?
 This module enables you to display certain information about your favourite GitHub Repositories on your MagicMirror² Mirror.
 
