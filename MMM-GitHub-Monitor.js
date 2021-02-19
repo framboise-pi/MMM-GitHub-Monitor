@@ -121,7 +121,7 @@ Module.register('MMM-GitHub-Monitor', {
       stars.style.textAlign = 'left';
 
       let forks = document.createElement('td');
-      forks.innerHTML = `<i class="fa fa-code-fork" style="color:#009C34"></i> ${repo.forks}`;
+      forks.innerHTML = `<i class="fa fa-code-fork" style="color:#76F7FF"></i> ${repo.forks}`;
       forks.style.textAlign = 'left';
 
       basicRow.append(title);
