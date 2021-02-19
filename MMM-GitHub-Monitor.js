@@ -105,21 +105,23 @@ Module.register('MMM-GitHub-Monitor', {
   getDom: function () {
     let table = document.createElement('table');
     table.classList.add('gh-monitor');
+    table.className = this.config.classes ? this.config.classes : "thin " + this.config.fontsize + " bright pre-line";
+
 
     this.ghData.forEach((repo) => {
       let basicRow = document.createElement('tr');
-      basicRow.style.fontWeight = 'bold';
+      //basicRow.style.fontWeight = 'bold';
       basicRow.style.paddingBottom = '0.5em';
 
       let title = document.createElement('td');
       title.innerText = repo.title;
 
       let stars = document.createElement('td');
-      stars.innerHTML = `<i class="fa fa-star"></i> ${repo.stars}`;
+      stars.innerHTML = `<i class="fa fa-star" style="color:#FFE121"></i> ${repo.stars}`;
       stars.style.textAlign = 'left';
 
       let forks = document.createElement('td');
-      forks.innerHTML = `<i class="fa fa-code-fork"></i> ${repo.forks}`;
+      forks.innerHTML = `<i class="fa fa-code-fork" style="color:#009C34"></i> ${repo.forks}`;
       forks.style.textAlign = 'left';
 
       basicRow.append(title);
