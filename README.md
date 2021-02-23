@@ -9,7 +9,7 @@
 ## What?
 This module enables you to display certain information about your favourite GitHub Repositories on your MagicMirror² Mirror.
 
-![Screenshot](screenshot.png)
+![Screenshot](MMM-github-monitor-fork_01.jpg)
 
 ## How?
 ### Installation
