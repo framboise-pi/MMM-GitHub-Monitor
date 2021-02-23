@@ -3,7 +3,7 @@
 
 # Fork differences
 - star icon in yellow color
-- fork icon in blue color
+- fork icon in light green color
 - thin fonts
 
 ## What?
